@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "physio-stellenangebote.de",
+  "url": "https://physio-stellenangebote.de",
+  "description": "Spezialisiertes Jobportal fuer Physio-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
+  "logo": "https://physio-stellenangebote.de/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": [
+      "German",
+      "English"
+    ]
+  },
+  "sameAs": []
+}

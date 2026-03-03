@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# physio-stellenangebote.de - Physio Stellenangebote
+
+> physio-stellenangebote.de ist ein spezialisiertes Jobportal fuer Physio-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Physio
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://physio-stellenangebote.de
+- Arbeitgeber-Kontakt: https://physio-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://physio-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Physio-Stellenangebote
+- Karriere-Ratgeber fuer Physio
+- Gehaltsvergleiche und Brancheninformationen
