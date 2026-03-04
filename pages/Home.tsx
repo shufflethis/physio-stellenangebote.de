@@ -11,37 +11,229 @@ import { Accessibility, Sparkles, Heart } from 'lucide-react';
 
 const MOCK_JOBS: Job[] = [
   {
-    id: 'physio1',
-    title: 'Physiotherapeut (m/w/d) - Sport & Reha',
-    company: 'Physio-Zentrum am Park',
-    location: 'Berlin-Charlottenburg',
+    id: '1',
+    title: 'Lehrkraft Physiotherapie (m/w/d)',
+    company: 'Ludwig Fresenius Schulen GmbH',
+    location: 'Wolfsburg',
     type: 'Vollzeit',
-    salary: '3.600€ - 4.400€',
-    description: 'Wir suchen Verstärkung für unser Team mit Fokus auf Sportphysiotherapie und Manuelle Therapie. Modernste Geräte und 30 Min. Taktung.',
-    postedAt: 'Vor 1 Std.',
-    logo: 'https://picsum.photos/seed/physio1/120/120'
+    description: 'Lehrkraft Physiotherapie (m/w/d)',
+    postedAt: '2026-03-03'
   },
   {
-    id: 'physio2',
-    title: 'Leitender Physiotherapeut',
-    company: 'Therapie-Klinik Sonnenblick',
-    location: 'Freiburg',
+    id: '2',
+    title: 'Rezeptionskraft (m/w/d)in Physiotherapie',
+    company: 'Körperconcept Physiotherapie Inh. Matthias Paulsen',
+    location: 'Schwerin, Mecklenburg',
     type: 'Vollzeit',
-    salary: '4.800€ - 5.500€',
-    description: 'Verantwortung für ein Team von 12 Therapeuten. Schwerpunkt Neurologie und Geriatrie. Inkl. Fortbildungsbudget.',
-    postedAt: 'Vor 4 Std.',
-    logo: 'https://picsum.photos/seed/physio2/120/120'
+    description: 'Rezeptionskraft (m/w/d)in Physiotherapie',
+    postedAt: '2026-03-02'
   },
   {
-    id: 'physio3',
-    title: 'Physiotherapeut (Teilzeit) - Kinderphysio',
-    company: 'Praxis Kleiner Schritt',
-    location: 'Leipzig',
-    type: 'Teilzeit',
-    salary: '2.200€ (20h)',
-    description: 'Werde Teil unserer familiären Praxis für Pädiatrie. Wir bieten flexible Arbeitszeiten und ein herzliches Miteinander.',
-    postedAt: 'Vor 1 Tag',
-    logo: 'https://picsum.photos/seed/physio3/120/120'
+    id: '3',
+    title: 'Physiotherapie',
+    company: 'PhysioFit Ines Mertins',
+    location: 'Sassenburg',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-02-28'
+  },
+  {
+    id: '4',
+    title: 'Empfangskraft Physiotherapie',
+    company: 'Bodo Peckruhn',
+    location: 'Kiel',
+    type: 'Vollzeit',
+    description: 'Empfangskraft Physiotherapie',
+    postedAt: '2026-02-27'
+  },
+  {
+    id: '5',
+    title: 'Leitung Physiotherapie',
+    company: 'P-MedConsulting Medical Care Personalberatung Grit Frömel',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Leitung Physiotherapie',
+    postedAt: '2026-02-26'
+  },
+  {
+    id: '6',
+    title: 'Praxis für Physiotherapie',
+    company: 'Praxis M.Buch',
+    location: 'Grünstadt',
+    type: 'Vollzeit',
+    description: 'Praxis für Physiotherapie',
+    postedAt: '2026-02-23'
+  },
+  {
+    id: '7',
+    title: 'Physiotherapie',
+    company: 'Dietrich / Stadtler GbR',
+    location: 'München',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-02-17'
+  },
+  {
+    id: '8',
+    title: 'Physiotherapie',
+    company: 'Jacqueline Schönherr Praxis für Physiotherapie',
+    location: 'Stavenhagen, Reuterstadt',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-02-10'
+  },
+  {
+    id: '9',
+    title: 'Physiotherapie',
+    company: 'Sabrina Schumann Praxis für Physiotherapie',
+    location: 'Parchim',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-02-09'
+  },
+  {
+    id: '10',
+    title: 'Physiotherapie',
+    company: 'Robert Balter',
+    location: 'Karlsruhe, Baden',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-02-05'
+  },
+  {
+    id: '11',
+    title: 'Physiotherapie',
+    company: 'Romi Knoll-Küchler',
+    location: 'Sindelfingen',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-01-29'
+  },
+  {
+    id: '12',
+    title: 'Physiotherapie',
+    company: 'Physiotherapie Atlas Einzelunternehmen',
+    location: 'Wester-Ohrstedt',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-01-28'
+  },
+  {
+    id: '13',
+    title: 'Physiotherapie',
+    company: 'Anne-Kathrin Dreschler Sport & Physiotherapie Lübz',
+    location: 'Lübz',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2026-01-27'
+  },
+  {
+    id: '14',
+    title: 'Physiotherapie (m/w/d)',
+    company: 'ZAR Gesundheits- und Therapiezentren GmbH',
+    location: 'Leinfelden-Echterdingen',
+    type: 'Vollzeit',
+    description: 'Physiotherapie (m/w/d)',
+    postedAt: '2026-01-27'
+  },
+  {
+    id: '15',
+    title: 'Physiotherapie (m/w/d)',
+    company: 'Schlossphysiotherapie Gaby Karius',
+    location: 'Großfahner',
+    type: 'Vollzeit',
+    description: 'Physiotherapie (m/w/d)',
+    postedAt: '2026-01-19'
+  },
+  {
+    id: '16',
+    title: 'Physiotherapie',
+    company: 'Friedhelm Wanke',
+    location: 'Cuxhaven',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2025-11-22'
+  },
+  {
+    id: '17',
+    title: 'Neue Physiotherapie',
+    company: 'Praxis für Physiotherapie Darina Kieschnick',
+    location: 'Malschwitz',
+    type: 'Vollzeit',
+    description: 'Neue Physiotherapie',
+    postedAt: '2025-11-10'
+  },
+  {
+    id: '18',
+    title: 'Physiotherapie',
+    company: 'Beatrix Gerken Massage und Krankengymnastik',
+    location: 'Walkenried',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2025-11-02'
+  },
+  {
+    id: '19',
+    title: 'Physiotherapie',
+    company: 'Physiozentrum Scheerer & Heesch GbR',
+    location: 'Bad Bramstedt',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2025-10-28'
+  },
+  {
+    id: '20',
+    title: 'PHYSIOTHERAPIE',
+    company: 'Dieter Dunklau Physiotherapie und Krankengymn astik',
+    location: 'Wesselburen',
+    type: 'Vollzeit',
+    description: 'PHYSIOTHERAPIE',
+    postedAt: '2025-10-25'
+  },
+  {
+    id: '21',
+    title: 'Verstärkung in der Physiotherapie (m/w/d)',
+    company: 'Johannes Van den Bosch Jun Praxis für Physiotherapie',
+    location: 'Emmerich am Rhein',
+    type: 'Vollzeit',
+    description: 'Verstärkung in der Physiotherapie (m/w/d)',
+    postedAt: '2025-09-01'
+  },
+  {
+    id: '22',
+    title: 'Physiotherapie',
+    company: 'Stefanie Söffler Praxis für Physiotherapie am Ostrauer Park',
+    location: 'Petersberg bei Halle, Saale',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2025-08-19'
+  },
+  {
+    id: '23',
+    title: 'Physiotherapie (m/w/d)',
+    company: 'Schrömer, Maximilian',
+    location: 'Haltern am See',
+    type: 'Vollzeit',
+    description: 'Physiotherapie (m/w/d)',
+    postedAt: '2025-06-18'
+  },
+  {
+    id: '24',
+    title: 'Physiotherapie',
+    company: 'Physiotherapie am Wulfsteert',
+    location: 'Eckernförde',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2025-06-03'
+  },
+  {
+    id: '25',
+    title: 'Physiotherapie',
+    company: 'Peter Speiser Physiotherapiepraxis',
+    location: 'Nufringen',
+    type: 'Vollzeit',
+    description: 'Physiotherapie',
+    postedAt: '2025-04-14'
   }
 ];
 
