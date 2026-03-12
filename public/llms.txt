@@ -1,19 +1,40 @@
 # HR-UPDATER: v1.0
 # physio-stellenangebote.de - Physio Stellenangebote
 
-> physio-stellenangebote.de ist ein spezialisiertes Jobportal fuer Physio-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+> physio-stellenangebote.de ist ein spezialisiertes Jobportal fuer Physiotherapie-Stellenangebote in Deutschland, Oesterreich und der Schweiz. Betrieben von der Social Media Venture GmbH.
 
 ## Ueber uns
-- Spezialisiertes Jobportal fuer Physio
+- Spezialisiertes Jobportal fuer Physiotherapie
 - Kostenlose Stellensuche fuer Bewerber
 - Gezielte Reichweite fuer Arbeitgeber
+- Aktuelle Stellenangebote aus Praxen, Kliniken und Reha-Zentren
+
+## Betreiber
+- Firma: Social Media Venture GmbH
+- Geschaeftsfuehrer: Thomas Sander
+- Adresse: Schliemannstrasse 23, 10437 Berlin
+- Telefon: +49 30 959 988 700
+- Website: https://physio-stellenangebote.de
 
 ## Kontakt
 - Website: https://physio-stellenangebote.de
-- Arbeitgeber-Kontakt: https://physio-stellenangebote.de/kontakt-arbeitgeber
-- Bewerber-Kontakt: https://physio-stellenangebote.de/kontakt-bewerber
+- Kontakt: https://physio-stellenangebote.de/#/kontakt
+- Impressum: https://physio-stellenangebote.de/#/impressum
+- Datenschutz: https://physio-stellenangebote.de/#/datenschutz
 
 ## Inhalte
-- Aktuelle Physio-Stellenangebote
-- Karriere-Ratgeber fuer Physio
+- Aktuelle Physiotherapie-Stellenangebote in ganz Deutschland
+- Karriere-Ratgeber fuer Physiotherapeuten
+- FAQ fuer Bewerber und Arbeitgeber
+- Regionale Stellenangebote in allen deutschen Grossstaedten
 - Gehaltsvergleiche und Brancheninformationen
+
+## Fachbereiche
+- Manuelle Therapie
+- Sportphysiotherapie
+- Paediatrie
+- Neurologie (Bobath/PNF)
+- Lymphdrainage
+- Orthopaedie
+- Geriatrie
+- Osteopathie
