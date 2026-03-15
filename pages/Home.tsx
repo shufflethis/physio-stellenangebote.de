@@ -12,6 +12,60 @@ import { Accessibility, Sparkles, Heart, HelpCircle, GraduationCap, MapPin as Ma
 const MOCK_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    company: 'Neuerburg GrundstücksgemeinschaftSofort-Bewerbung',
+    location: 'Köln',
+    type: 'Vollzeit',
+    description: 'Haustechniker/in (m/w/d) für Bestandsimmobilien mit großer Dienstwohnung',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '2',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Potsdam',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '3',
+    title: 'Zahnarzt (m/w/d)',
+    company: 'MeinDentist Berlin GmbH',
+    location: 'Berlin',
+    type: 'Vollzeit',
+    description: 'Zahnarzt (m/w/d)',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '4',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Hannover',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '5',
+    title: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    company: 'avs SYSTEM LIFT AGSofort-Bewerbung',
+    location: 'Isernhagen',
+    type: 'Vollzeit',
+    description: 'Mitarbeiter (m/w/d) Finanzbuchhaltung & Digitale Prozesse',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '6',
+    title: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    company: 'Medisca GmbH',
+    location: 'Kabelsketal',
+    type: 'Vollzeit',
+    description: 'Einrichter (m/w/d) für Kunststoffspritzgussmaschinen',
+    postedAt: '2026-03-15'
+  },
+  {
+    id: '7',
     title: 'Leitung Physiotherapie (m/w/d)',
     company: 'Henneberg-Rehaklinik Masserberg GmbH',
     location: 'Masserberg',
@@ -20,7 +74,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-06'
   },
   {
-    id: '2',
+    id: '8',
     title: 'Fachkraft für Physiotherapie (m/w/d)',
     company: 'Dt. Rentenversicherung Baden-Württemberg Hauptsitz Karlsruhe',
     location: 'Stuttgart',
@@ -29,7 +83,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-05'
   },
   {
-    id: '3',
+    id: '9',
     title: 'Lehrkraft Physiotherapie (m/w/d)',
     company: 'Ludwig Fresenius Schulen GmbH',
     location: 'Wolfsburg',
@@ -38,7 +92,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-03'
   },
   {
-    id: '4',
+    id: '10',
     title: 'Rezeptionskraft (m/w/d)in Physiotherapie',
     company: 'Körperconcept Physiotherapie Inh. Matthias Paulsen',
     location: 'Schwerin, Mecklenburg',
@@ -47,7 +101,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-03-02'
   },
   {
-    id: '5',
+    id: '11',
     title: 'Physiotherapie',
     company: 'PhysioFit Ines Mertins',
     location: 'Sassenburg',
@@ -56,7 +110,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-28'
   },
   {
-    id: '6',
+    id: '12',
     title: 'Empfangskraft Physiotherapie',
     company: 'Bodo Peckruhn',
     location: 'Kiel',
@@ -65,7 +119,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-27'
   },
   {
-    id: '7',
+    id: '13',
     title: 'Leitung Physiotherapie',
     company: 'P-MedConsulting Medical Care Personalberatung Grit Frömel',
     location: 'Berlin',
@@ -74,7 +128,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-26'
   },
   {
-    id: '8',
+    id: '14',
     title: 'Praxis für Physiotherapie',
     company: 'Praxis M.Buch',
     location: 'Grünstadt',
@@ -83,7 +137,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-23'
   },
   {
-    id: '9',
+    id: '15',
     title: 'Physiotherapie',
     company: 'Dietrich / Stadtler GbR',
     location: 'München',
@@ -92,7 +146,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-17'
   },
   {
-    id: '10',
+    id: '16',
     title: 'Physiotherapie',
     company: 'Jacqueline Schönherr Praxis für Physiotherapie',
     location: 'Stavenhagen, Reuterstadt',
@@ -101,7 +155,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-10'
   },
   {
-    id: '11',
+    id: '17',
     title: 'Physiotherapie',
     company: 'Sabrina Schumann Praxis für Physiotherapie',
     location: 'Parchim',
@@ -110,7 +164,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-09'
   },
   {
-    id: '12',
+    id: '18',
     title: 'Physiotherapie',
     company: 'Robert Balter',
     location: 'Karlsruhe, Baden',
@@ -119,7 +173,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-02-05'
   },
   {
-    id: '13',
+    id: '19',
     title: 'Physiotherapie',
     company: 'Romi Knoll-Küchler',
     location: 'Sindelfingen',
@@ -128,7 +182,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-01-29'
   },
   {
-    id: '14',
+    id: '20',
     title: 'Physiotherapie',
     company: 'Physiotherapie Atlas Einzelunternehmen',
     location: 'Wester-Ohrstedt',
@@ -137,7 +191,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-01-28'
   },
   {
-    id: '15',
+    id: '21',
     title: 'Physiotherapie',
     company: 'Anne-Kathrin Dreschler Sport & Physiotherapie Lübz',
     location: 'Lübz',
@@ -146,7 +200,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-01-27'
   },
   {
-    id: '16',
+    id: '22',
     title: 'Physiotherapie (m/w/d)',
     company: 'ZAR Gesundheits- und Therapiezentren GmbH',
     location: 'Leinfelden-Echterdingen',
@@ -155,7 +209,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-01-27'
   },
   {
-    id: '17',
+    id: '23',
     title: 'Physiotherapie (m/w/d)',
     company: 'Schlossphysiotherapie Gaby Karius',
     location: 'Großfahner',
@@ -164,7 +218,7 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2026-01-19'
   },
   {
-    id: '18',
+    id: '24',
     title: 'Physiotherapie',
     company: 'Friedhelm Wanke',
     location: 'Cuxhaven',
@@ -173,67 +227,13 @@ const MOCK_JOBS: Job[] = [
     postedAt: '2025-11-22'
   },
   {
-    id: '19',
+    id: '25',
     title: 'Neue Physiotherapie',
     company: 'Praxis für Physiotherapie Darina Kieschnick',
     location: 'Malschwitz',
     type: 'Vollzeit',
     description: 'Neue Physiotherapie',
     postedAt: '2025-11-10'
-  },
-  {
-    id: '20',
-    title: 'Physiotherapie',
-    company: 'Beatrix Gerken Massage und Krankengymnastik',
-    location: 'Walkenried',
-    type: 'Vollzeit',
-    description: 'Physiotherapie',
-    postedAt: '2025-11-02'
-  },
-  {
-    id: '21',
-    title: 'Physiotherapie',
-    company: 'Physiozentrum Scheerer & Heesch GbR',
-    location: 'Bad Bramstedt',
-    type: 'Vollzeit',
-    description: 'Physiotherapie',
-    postedAt: '2025-10-28'
-  },
-  {
-    id: '22',
-    title: 'PHYSIOTHERAPIE',
-    company: 'Dieter Dunklau Physiotherapie und Krankengymn astik',
-    location: 'Wesselburen',
-    type: 'Vollzeit',
-    description: 'PHYSIOTHERAPIE',
-    postedAt: '2025-10-25'
-  },
-  {
-    id: '23',
-    title: 'Verstärkung in der Physiotherapie (m/w/d)',
-    company: 'Johannes Van den Bosch Jun Praxis für Physiotherapie',
-    location: 'Emmerich am Rhein',
-    type: 'Vollzeit',
-    description: 'Verstärkung in der Physiotherapie (m/w/d)',
-    postedAt: '2025-09-01'
-  },
-  {
-    id: '24',
-    title: 'Physiotherapie',
-    company: 'Stefanie Söffler Praxis für Physiotherapie am Ostrauer Park',
-    location: 'Petersberg bei Halle, Saale',
-    type: 'Vollzeit',
-    description: 'Physiotherapie',
-    postedAt: '2025-08-19'
-  },
-  {
-    id: '25',
-    title: 'Physiotherapie (m/w/d)',
-    company: 'Schrömer, Maximilian',
-    location: 'Haltern am See',
-    type: 'Vollzeit',
-    description: 'Physiotherapie (m/w/d)',
-    postedAt: '2025-06-18'
   }
 ];
 
